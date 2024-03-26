@@ -1,0 +1,15 @@
+* {
+  margin: auto;
+}
+
+/*WORLD MAP*/
+
+.map {
+  width: 100%;
+  height: 50rem;
+  background-color: pink;
+}
+
+.map2 {
+  width: 100%;
+}
