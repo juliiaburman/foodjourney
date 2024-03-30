@@ -7,9 +7,201 @@
 .map {
   width: 100%;
   height: 50rem;
-  background-color: pink;
+  background-color: #f8abb9;
 }
 
-.map2 {
+.pin {
+  background: white;
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+}
+
+.pin::before {
+  content: "";
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: pulse 1.3s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+.pin:hover::before {
+  width: 200px;
+  animation-play-state: paused;
+  scale: 0;
+}
+
+.pin:hover {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease-out;
+  transform: translate(-40%, -20%);
+}
+
+.mexico:hover,
+.lebanon:hover,
+.iceland:hover,
+.sweden:hover,
+.germany:hover,
+.hungary:hover,
+.greece:hover,
+.russia:hover,
+.vietnam:hover {
+  width: 5rem;
+}
+
+.cuba:hover,
+.usa:hover,
+.chile:hover,
+.egypt:hover,
+.uk:hover,
+.spain:hover,
+.italy:hover,
+.india:hover,
+.japan:hover {
+  width: 4rem;
+}
+
+.pin span {
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: opacity 0.2s ease-in-out;
+}
+
+.pin:hover span {
+  display: flex;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+span {
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  font-size: 0.9em;
+  display: none;
+}
+
+.usa {
+  top: 44%;
+  left: 23.7%;
+}
+
+.mexico {
+  top: 52%;
+  left: 22.3%;
+}
+
+.cuba {
+  top: 53.4%;
+  left: 28%;
+}
+
+.chile {
+  top: 75%;
+  left: 30.8%;
+}
+
+.egypt {
+  top: 51.5%;
+  left: 55%;
+}
+
+.south-africa {
+  top: 74%;
+  left: 53.7%;
+}
+
+.lebanon {
+  top: 49%;
+  left: 56.5%;
+}
+
+.iceland {
+  top: 31.7%;
+  left: 44%;
+}
+
+.uk {
+  top: 39%;
+  left: 47.2%;
+}
+
+.sweden {
+  top: 34%;
+  left: 50.7%;
+}
+
+.germany {
+  top: 40%;
+  left: 50%;
+}
+
+.spain {
+  top: 45.5%;
+  left: 46.7%;
+}
+
+.italy {
+  top: 44.6%;
+  left: 51%;
+}
+
+.hungary {
+  top: 42%;
+  left: 52%;
+}
+
+.greece {
+  top: 46%;
+  left: 53%;
+}
+
+.russia {
+  top: 32%;
+  left: 67%;
+}
+
+.india {
+  top: 54.5%;
+  left: 67.3%;
+}
+
+.vietnam {
+  top: 57%;
+  left: 74.7%;
+}
+
+.japan {
+  top: 45.7%;
+  left: 81.5%;
+}
+
+@keyframes pulse {
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2.5);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
