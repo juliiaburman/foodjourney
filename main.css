@@ -9,6 +9,7 @@
   background-color: #f8abb9;
 }
 
+
 .pin {
   background: white;
   position: absolute;
@@ -216,10 +217,9 @@ span {
   width: 2rem;
   height: 2rem;
   display: none;
-  justify-content: center;
 }
 
-.fa-chevron-up{
+.fa-chevron-up {
   padding-left: 0;
   font-size: 1.5rem;
   color: rgb(54, 53, 53);
