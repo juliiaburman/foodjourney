@@ -17,6 +17,10 @@ font-family: "Amiri", serif;*/
   font-family: "Abril Fatface", serif;
   font-size: 5rem;
   position: absolute;
+  color: #faf3e9;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  transform: rotate(-4deg);
 }
 
 .pin {
@@ -75,7 +79,8 @@ font-family: "Amiri", serif;*/
 .france:hover,
 .italy:hover,
 .india:hover,
-.japan:hover {
+.japan:hover,
+.china:hover {
   width: 4rem;
 }
 
@@ -157,8 +162,8 @@ span {
 }
 
 .france {
-  top: 45%;
-  left: 48.5%;
+  top: 42.2%;
+  left: 48.3%;
 }
 
 .italy {
@@ -167,7 +172,7 @@ span {
 }
 
 .australia {
-  top: 79%;
+  top: 74%;
   left: 82%;
 }
 
@@ -192,8 +197,8 @@ span {
 }
 
 .indonesia {
-  top: 66.5%;
-  left: 76.5%;
+  top: 62.5%;
+  left: 76.7%;
 }
 
 .japan {
@@ -234,12 +239,14 @@ span {
 }
 
 .fa-chevron-up {
-  padding-left: 0;
+  padding-right: 0.5rem;
   font-size: 1.5rem;
   color: rgb(54, 53, 53);
 }
 
-h1 {
+/*WELCOME TEXT*/
+
+.introtext {
   font-size: 50px;
   padding-left: 15rem;
   padding-top: 2rem;
@@ -254,3 +261,5 @@ h5 {
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
+
+/*TABLE OF CONTENT*/
