@@ -62,7 +62,7 @@
 .chile:hover,
 .egypt:hover,
 .uk:hover,
-.spain:hover,
+.france:hover,
 .italy:hover,
 .india:hover,
 .japan:hover {
@@ -146,9 +146,9 @@ span {
   left: 50%;
 }
 
-.spain {
-  top: 45.5%;
-  left: 46.7%;
+.france {
+  top: 45%;
+  left: 48.5%;
 }
 
 .italy {
