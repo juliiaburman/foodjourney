@@ -10,7 +10,7 @@ font-family: "Amiri", serif;*/
 .map {
   width: 100%;
   height: 50rem;
-  background-color: #f8abb9;
+  background-color: #98bcc7;
 }
 
 .magazine-title {
@@ -60,10 +60,10 @@ font-family: "Amiri", serif;*/
 .iceland:hover,
 .sweden:hover,
 .germany:hover,
-.hungary:hover,
+.australia:hover,
 .greece:hover,
 .russia:hover,
-.vietnam:hover {
+.indonesia:hover {
   width: 5rem;
 }
 
@@ -72,7 +72,7 @@ font-family: "Amiri", serif;*/
 .chile:hover,
 .egypt:hover,
 .uk:hover,
-.spain:hover,
+.france:hover,
 .italy:hover,
 .india:hover,
 .japan:hover {
@@ -156,9 +156,9 @@ span {
   left: 50%;
 }
 
-.spain {
-  top: 45.5%;
-  left: 46.7%;
+.france {
+  top: 45%;
+  left: 48.5%;
 }
 
 .italy {
@@ -166,9 +166,9 @@ span {
   left: 51%;
 }
 
-.hungary {
-  top: 42%;
-  left: 52%;
+.australia {
+  top: 79%;
+  left: 82%;
 }
 
 .greece {
@@ -181,14 +181,19 @@ span {
   left: 67%;
 }
 
+.china {
+  top: 45%;
+  left: 73%;
+}
+
 .india {
   top: 54.5%;
   left: 67.3%;
 }
 
-.vietnam {
-  top: 57%;
-  left: 74.7%;
+.indonesia {
+  top: 66.5%;
+  left: 76.5%;
 }
 
 .japan {
@@ -226,11 +231,26 @@ span {
   width: 2rem;
   height: 2rem;
   display: none;
-  justify-content: center;
 }
 
 .fa-chevron-up {
   padding-left: 0;
   font-size: 1.5rem;
   color: rgb(54, 53, 53);
+}
+
+h1 {
+  font-size: 50px;
+  padding-left: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+h5 {
+  width: 100%;
+  background-color: #f18094;
+  font-size: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
