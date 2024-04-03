@@ -50,7 +50,7 @@
 .iceland:hover,
 .sweden:hover,
 .germany:hover,
-.hungary:hover,
+.australia:hover,
 .greece:hover,
 .russia:hover,
 .vietnam:hover {
@@ -156,9 +156,9 @@ span {
   left: 51%;
 }
 
-.hungary {
-  top: 42%;
-  left: 52%;
+.australia {
+  top: 79%;
+  left: 82%;
 }
 
 .greece {
