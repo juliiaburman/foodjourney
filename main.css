@@ -9,7 +9,6 @@
   background-color: #98bcc7;
 }
 
-
 .pin {
   background: white;
   position: absolute;
@@ -225,9 +224,18 @@ span {
   color: rgb(54, 53, 53);
 }
 
+h1 {
+  font-size: 50px;
+  padding-left: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
 h5 {
   width: 100%;
-  background-color: #F18094;
+  background-color: #f18094;
   font-size: 20px;
   padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
