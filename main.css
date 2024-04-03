@@ -1,3 +1,7 @@
+/*font-family: "Abril Fatface", serif;
+font-family: "Open Sans", sans-serif;
+font-family: "Amiri", serif;*/
+
 * {
   margin: auto;
 }
@@ -7,6 +11,12 @@
   width: 100%;
   height: 50rem;
   background-color: #f8abb9;
+}
+
+.magazine-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 5rem;
+  position: absolute;
 }
 
 .pin {
@@ -219,7 +229,7 @@ span {
   justify-content: center;
 }
 
-.fa-chevron-up{
+.fa-chevron-up {
   padding-left: 0;
   font-size: 1.5rem;
   color: rgb(54, 53, 53);
