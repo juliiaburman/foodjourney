@@ -262,7 +262,7 @@ span {
 }
 
 .square {
-  width: 30rem;
+  width: 35rem;
   height: 10rem;
   background-color: rgb(255, 255, 255);
   position: absolute;
@@ -272,18 +272,21 @@ span {
 }
 
 .square-text {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  text-align: center;
+  width: 51.5rem;
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #494949;
-  font-size: 18px;
+  font-size: 20px;
 }
 
+/*TABLE OF CONTENT*/
 h1 {
   font-family: "Scandia", sans-serif;
   font-size: 30px;
-  margin-top: 28rem;
+  margin-top: 25rem;
   color: #fb9246;
 }
 
@@ -299,9 +302,7 @@ h5 {
   background-color: #f18094;
   font-size: 20px;
   padding-left: 2rem;
-  margin-top: 35rem;
+  margin-top: 40rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
-
-/*TABLE OF CONTENT*/
