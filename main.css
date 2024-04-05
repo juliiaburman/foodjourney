@@ -246,18 +246,58 @@ span {
 
 /*WELCOME TEXT*/
 
-.introtext {
-  font-size: 50px;
-  padding-left: 15rem;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+.container {
+  position: relative;
 }
+
+.circle {
+  width: 26rem;
+  height: 26rem;
+  background-color: #faf3e9;
+  border-radius: 50%;
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square {
+  width: 30rem;
+  height: 10rem;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #494949;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 28rem;
+  color: #fb9246;
+}
+
+h2 {
+  font-size: 40px;
+  color: #fb9246;
+}
+/*FOOTER*/
 
 h5 {
   width: 100%;
   background-color: #f18094;
   font-size: 20px;
   padding-left: 2rem;
+  margin-top: 35rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
