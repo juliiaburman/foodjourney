@@ -262,15 +262,27 @@ span {
 .arrow {
   position: absolute;
   border: none;
-  background-color: #BFD0DF;
+  background-color: #bfd0df;
   left: 50%;
-  transform: translate(-50%, -205%);
   width: 5rem;
   height: 5rem;
+  animation: floatUpDown 1s ease-in-out infinite alternate;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translate(-50%, -210%);
+  }
+  50% {
+    transform: translate(-50%, -230%);
+  }
+  100% {
+    transform: translate(-50%, -210%);
+  }
 }
 
 .fa-down-long {
-  color: #FAF3E9;
+  color: #faf3e9;
   font-size: 3.5rem;
 }
 
