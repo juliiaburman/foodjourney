@@ -260,36 +260,12 @@ span {
   position: relative;
 }
 
-.circle {
-  width: 26rem;
-  height: 26rem;
-  background-color: #faf3e9;
-  border-radius: 50%;
-  position: absolute;
-  top: 4.5rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.square {
-  width: 35rem;
-  height: 10rem;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 51%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .square-text {
-  position: relative;
   text-align: center;
   width: 51.5rem;
-  top: 51%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #494949;
   font-size: 20px;
+  padding-top: 3rem;
 }
 
 /*TABLE OF CONTENT*/
