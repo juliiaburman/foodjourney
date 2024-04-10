@@ -16,10 +16,21 @@ font-family: "Amiri", serif;*/
 .magazine-title {
   font-family: "Abril Fatface", serif;
   font-size: 5rem;
+  letter-spacing: 1rem;
   position: absolute;
   color: #faf3e9;
-  margin-left: 2rem;
-  margin-top: 0.5rem;
+  margin-left: 3rem;
+  margin-top: 0.2rem;
+}
+
+h2 {
+  font-family: "Scandia", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  color: #faf3e9;
+  position: absolute;
+  padding-top: 6.5rem;
+  padding-left: 1.5rem;
 }
 
 .pin {
@@ -282,14 +293,14 @@ span {
 }
 
 /*TABLE OF CONTENT*/
-h1 {
+h3 {
   font-family: "Scandia", sans-serif;
   font-size: 30px;
   margin-top: 25rem;
   color: #fb9246;
 }
 
-h2 {
+h4 {
   font-family: "Abril Fatface", serif;
   font-size: 40px;
   color: #fb9246;
