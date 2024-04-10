@@ -254,11 +254,27 @@ span {
   color: rgb(54, 53, 53);
 }
 
-/*WELCOME TEXT*/
-
+/*ARROW DOWN BUTTON*/
 .container {
   position: relative;
 }
+
+.arrow {
+  position: absolute;
+  border: none;
+  background-color: #BFD0DF;
+  left: 50%;
+  transform: translate(-50%, -205%);
+  width: 5rem;
+  height: 5rem;
+}
+
+.fa-down-long {
+  color: #FAF3E9;
+  font-size: 3.5rem;
+}
+
+/*WELCOME TEXT*/
 
 .square-text {
   text-align: center;

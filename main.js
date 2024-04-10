@@ -1,3 +1,14 @@
+//scroll arrow button
+const arrowDown = document.querySelector(".arrow");
+arrowDown.addEventListener("click", scrollDownFunction);
+
+function scrollDownFunction() {
+  window.scrollTo({
+    top: 550,
+    behavior: "smooth",
+  })
+}
+
 //To top button
 const toTop = document.querySelector(".to-top");
 toTop.addEventListener("click", toTopFunction);
