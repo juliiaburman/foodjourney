@@ -10,7 +10,7 @@ font-family: "Amiri", serif;*/
 .map {
   width: 100%;
   height: 50rem;
-  background-color: #98bcc7;
+  background-color: #bfd0df;
 }
 
 .magazine-title {
@@ -18,13 +18,12 @@ font-family: "Amiri", serif;*/
   font-size: 5rem;
   position: absolute;
   color: #faf3e9;
-  margin-left: 3rem;
-  margin-top: 1rem;
-  transform: rotate(-4deg);
+  margin-left: 2rem;
+  margin-top: 0.5rem;
 }
 
 .pin {
-  background: white;
+  background: #faf3e9;
   position: absolute;
   width: 0.7em;
   height: 0.7em;
@@ -33,7 +32,7 @@ font-family: "Amiri", serif;*/
 
 .pin::before {
   content: "";
-  background: white;
+  background: #faf3e9;
   position: absolute;
   top: 50%;
   left: 50%;
