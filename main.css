@@ -3,7 +3,7 @@ font-family: "Open Sans", sans-serif;
 font-family: "Amiri", serif;*/
 
 * {
-  margin: auto;
+  margin: 0;
 }
 
 /*WORLD MAP*/
@@ -23,7 +23,7 @@ font-family: "Amiri", serif;*/
   margin-top: 0.2rem;
 }
 
-h2 {
+.magazine-title2 {
   font-family: "Scandia", sans-serif;
   font-size: 20px;
   letter-spacing: 0.1rem;
@@ -81,7 +81,7 @@ h2 {
   width: 5rem;
 }
 
-.cuba:hover,
+/* .cuba:hover,
 .usa:hover,
 .chile:hover,
 .egypt:hover,
@@ -92,7 +92,7 @@ h2 {
 .japan:hover,
 .china:hover {
   width: 4rem;
-}
+} */
 
 .pin span {
   white-space: nowrap;
@@ -461,6 +461,25 @@ span {
   left: 22rem;
   background-color: white;
   height: 13rem;
+}
+
+/*CUBA*/
+.cuba {
+  display: flex;
+  margin-left: 6rem;
+}
+
+.cuba-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.cuba-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 4rem;
 }
 
 /*FOOTER*/
