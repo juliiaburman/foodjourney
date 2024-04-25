@@ -482,6 +482,28 @@ span {
   margin-left: 4rem;
 }
 
+/*MEXICO*/
+.mexico {
+  margin-top: 25rem;
+}
+
+.mexico-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.mexico-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Amiri", serif;
+  margin-left: 2rem;
+  text-align: center;
+  font-size: 20px;
+}
+
 /*FOOTER*/
 
 .faboulus-four {
