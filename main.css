@@ -69,7 +69,7 @@ font-family: "Amiri", serif;*/
   transform: translate(-40%, -20%);
 }
 
-.mexico:hover,
+/* .mexico:hover,
 .lebanon:hover,
 .iceland:hover,
 .sweden:hover,
@@ -79,7 +79,7 @@ font-family: "Amiri", serif;*/
 .russia:hover,
 .indonesia:hover {
   width: 5rem;
-}
+} */
 
 /* .cuba:hover,
 .usa:hover,
@@ -498,10 +498,13 @@ span {
 .mexico-text {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-family: "Amiri", serif;
-  margin-left: 1rem;
+  column-gap: 2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /*SOUTH AMERICA*/
@@ -519,7 +522,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #ffb4c1;
   font-size: 90pt;
-  top: 313rem;
+  top: 310rem;
   left: 33rem;
 }
 
@@ -528,12 +531,11 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 318rem;
+  top: 315rem;
   left: 22rem;
   background-color: white;
   height: 13rem;
 }
-
 
 /*EUROPE*/
 .section-three {
@@ -550,10 +552,30 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 358rem;
-  left: 23rem;
+  top: 354rem;
+  left: 24rem;
   background-color: white;
   height: 13rem;
+}
+
+/*ICELAND*/
+.iceland {
+  display: grid;
+  grid-template-columns: 1fr, 2fr;
+  margin-left: 6rem;
+}
+
+.iceland-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.iceland-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-left: 4rem;
 }
 
 /*AFRICA*/
@@ -571,7 +593,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 400rem;
+  top: 470rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -592,7 +614,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 440rem;
+  top: 490rem;
   left: 30rem;
   background-color: white;
   height: 13rem;
@@ -613,12 +635,11 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 480rem;
+  top: 510rem;
   left: 28rem;
   background-color: white;
   height: 13rem;
 }
-
 
 /*FOOTER*/
 
