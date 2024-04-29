@@ -561,8 +561,7 @@ span {
 /*ICELAND*/
 .iceland {
   display: grid;
-  grid-template-columns: 1fr, 2fr;
-  margin-left: 6rem;
+margin-left: 6rem;
 }
 
 .iceland-headline {
