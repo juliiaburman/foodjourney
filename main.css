@@ -599,6 +599,25 @@ span {
   height: 13rem;
 }
 
+/* EGYPT */
+.egypt {
+  display: flex;
+  margin-left: 6rem;
+}
+
+.egypt-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.egypt-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 4rem;
+}
+
 /*ASIA*/
 .section-five {
   position: relative;
