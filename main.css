@@ -500,7 +500,7 @@ span {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   font-family: "Open Sans", sans-serif;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   margin-right: 1.5rem;
   margin-top: 2rem;
   text-align: left;
@@ -561,8 +561,7 @@ span {
 /*ICELAND*/
 .iceland {
   display: grid;
-  grid-template-columns: 1fr, 2fr;
-  margin-left: 6rem;
+margin-left: 6rem;
 }
 
 .iceland-headline {
