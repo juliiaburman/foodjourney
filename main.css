@@ -499,9 +499,39 @@ span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-family: "Amiri", serif;
-  margin-left: 2rem;
-  text-align: center;
+  margin-left: 1rem;
+  text-align: left;
   font-size: 20px;
+}
+
+/*SOUTH AMERICA*/
+.section-two {
+  position: relative;
+  font-family: "Abril Fatface", serif;
+  color: #faf3e9;
+  font-size: 350pt;
+  margin-top: 1.5rem;
+  margin-left: 14rem;
+}
+
+.section-south {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #ffb4c1;
+  font-size: 90pt;
+  top: 315rem;
+  left: 33rem;
+}
+
+.section-america2 {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #f18094;
+  font-size: 130pt;
+  top: 320rem;
+  left: 22rem;
+  background-color: white;
+  height: 13rem;
 }
 
 /*FOOTER*/
