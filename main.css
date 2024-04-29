@@ -537,6 +537,16 @@ span {
   height: 13rem;
 }
 
+.chile {
+  display: flex;
+}
+
+.chile-headline {
+  font-family: "Amiri", serif;
+  text-align: center;
+  font-size: 50px;
+}
+
 /*EUROPE*/
 .section-three {
   position: relative;
@@ -552,7 +562,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 354rem;
+  top: 420rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
