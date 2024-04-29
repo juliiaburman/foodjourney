@@ -499,10 +499,126 @@ span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-family: "Amiri", serif;
-  margin-left: 2rem;
-  text-align: center;
+  margin-left: 1rem;
+  text-align: left;
   font-size: 20px;
 }
+
+/*SOUTH AMERICA*/
+.section-two {
+  position: relative;
+  font-family: "Abril Fatface", serif;
+  color: #faf3e9;
+  font-size: 350pt;
+  margin-top: 1.5rem;
+  margin-left: 14rem;
+}
+
+.section-south {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #ffb4c1;
+  font-size: 90pt;
+  top: 313rem;
+  left: 33rem;
+}
+
+.section-america2 {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #f18094;
+  font-size: 130pt;
+  top: 318rem;
+  left: 22rem;
+  background-color: white;
+  height: 13rem;
+}
+
+
+/*EUROPE*/
+.section-three {
+  position: relative;
+  font-family: "Abril Fatface", serif;
+  color: #faf3e9;
+  font-size: 350pt;
+  margin-top: 1.5rem;
+  margin-left: 14rem;
+}
+
+.section-europe {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #f18094;
+  font-size: 130pt;
+  top: 358rem;
+  left: 23rem;
+  background-color: white;
+  height: 13rem;
+}
+
+/*AFRICA*/
+.section-four {
+  position: relative;
+  font-family: "Abril Fatface", serif;
+  color: #faf3e9;
+  font-size: 350pt;
+  margin-top: 1.5rem;
+  margin-left: 14rem;
+}
+
+.section-africa {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #f18094;
+  font-size: 130pt;
+  top: 400rem;
+  left: 24rem;
+  background-color: white;
+  height: 13rem;
+}
+
+/*ASIA*/
+.section-five {
+  position: relative;
+  font-family: "Abril Fatface", serif;
+  color: #faf3e9;
+  font-size: 350pt;
+  margin-top: 1.5rem;
+  margin-left: 18rem;
+}
+
+.section-asia {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #f18094;
+  font-size: 130pt;
+  top: 440rem;
+  left: 30rem;
+  background-color: white;
+  height: 13rem;
+}
+
+/*OCEANIA*/
+.section-six {
+  position: relative;
+  font-family: "Abril Fatface", serif;
+  color: #faf3e9;
+  font-size: 350pt;
+  margin-top: 1.5rem;
+  margin-left: 14rem;
+}
+
+.section-oceania {
+  position: absolute;
+  font-family: "Abril Fatface", serif;
+  color: #f18094;
+  font-size: 130pt;
+  top: 480rem;
+  left: 28rem;
+  background-color: white;
+  height: 13rem;
+}
+
 
 /*FOOTER*/
 
