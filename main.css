@@ -562,7 +562,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 420rem;
+  top: 386rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -571,7 +571,7 @@ span {
 /*ICELAND*/
 .iceland {
   display: grid;
-margin-left: 6rem;
+  margin-left: 6rem;
 }
 
 .iceland-headline {
@@ -602,7 +602,7 @@ margin-left: 6rem;
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 470rem;
+  top: 484rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -610,8 +610,7 @@ margin-left: 6rem;
 
 /* EGYPT */
 .egypt {
-  display: flex;
-  margin-left: 6rem;
+  display: inline;
 }
 
 .egypt-headline {
@@ -642,7 +641,7 @@ margin-left: 6rem;
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 490rem;
+  top: 615rem;
   left: 30rem;
   background-color: white;
   height: 13rem;
@@ -663,7 +662,7 @@ margin-left: 6rem;
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 510rem;
+  top: 655rem;
   left: 28rem;
   background-color: white;
   height: 13rem;
