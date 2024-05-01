@@ -251,7 +251,7 @@ span {
 .fa-chevron-up {
   padding-right: 0.5rem;
   font-size: 1.5rem;
-  color: rgb(54, 53, 53);
+  margin-top: 0.2rem;
 }
 
 /*ARROW DOWN BUTTON*/
@@ -568,9 +568,48 @@ span {
   height: 13rem;
 }
 
+/*GREECE*/
+.greeceImg {
+  width: 20rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.greece {
+  display: flex;
+  margin-bottom: 20rem;
+}
+
+.greece-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.greeceImg2 {
+  margin-left: 12.5rem;
+}
+
+.greece1,
+.greece2,
+.greece3 {
+  margin-top: 1rem;
+}
+
+.greece-all-text {
+  margin-left: 6rem;
+}
+
+.greece-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
+}
+
 /*ICELAND*/
 .iceland {
-  display: grid;
+  display: flex;
   margin-left: 6rem;
 }
 
@@ -585,6 +624,39 @@ span {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin-left: 4rem;
+}
+
+/*SWEDEN*/
+.sweden {
+  display: flex;
+  margin-top: 20rem;
+}
+
+.sweden-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.swedenImg {
+  margin-left: 12.5rem;
+}
+
+.sweden1,
+.sweden2,
+.sweden3 {
+  margin-top: 1rem;
+}
+
+.sweden-all-text {
+  margin-left: 6rem;
+}
+
+.sweden-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
 }
 
 /*AFRICA*/
@@ -602,7 +674,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 484rem;
+  top: 636rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -610,7 +682,7 @@ span {
 
 /* EGYPT */
 .egypt {
-  display: inline;
+  display: flex;
 }
 
 .egypt-headline {
@@ -620,10 +692,20 @@ span {
   font-size: 50px;
 }
 
+.egypt-all-text {
+  margin-left: 5rem;
+}
+
 .egypt-text {
   font-family: "Open Sans", sans-serif;
   width: 25rem;
-  margin-left: 4rem;
+  margin-left: 6rem;
+}
+
+.egypt1,
+.egypt2,
+.egypt3 {
+  margin-bottom: 1rem;
 }
 
 /*ASIA*/
@@ -641,10 +723,42 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 615rem;
+  top: 726rem;
   left: 30rem;
   background-color: white;
   height: 13rem;
+}
+
+/*CHINA*/
+.china {
+  display: flex;
+}
+
+.china-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.chinaImg {
+  margin-left: 12.5rem;
+}
+
+.china1,
+.china2,
+.china3 {
+  margin-top: 1rem;
+}
+
+.china-all-text {
+  margin-left: 6rem;
+}
+
+.china-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
 }
 
 /*OCEANIA*/
@@ -662,7 +776,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 655rem;
+  top: 815rem;
   left: 28rem;
   background-color: white;
   height: 13rem;
