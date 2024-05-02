@@ -568,6 +568,34 @@ span {
   height: 13rem;
 }
 
+/*GERMANY*/
+.germany {
+  display: flex;
+  margin-bottom: 20rem;
+  overflow-x: auto;
+}
+
+.germany-headline {
+  font-family: "Amiri", serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.germany-image1 {
+  margin-right: 18rem;
+}
+
+.germany-image2 {
+  margin-left: 15rem;
+}
+
+.germany-text {
+  font-family: "Open Sans", sans-serif;
+  column-gap: 5rem;
+  columns: 2;
+  width: 40rem;
+}
+
 /*GREECE*/
 .greeceImg {
   width: 20rem;
@@ -626,6 +654,33 @@ span {
   margin-left: 4rem;
 }
 
+/*ITALY*/
+.italy {
+  margin-top: 20rem;
+}
+
+.italy-image {
+  margin-left: 25rem;
+}
+
+.italy-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.italy-text {
+  background-color: #fcc094;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+}
+
 /*SWEDEN*/
 .sweden {
   display: flex;
@@ -674,7 +729,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 636rem;
+  top: 780rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -708,6 +763,39 @@ span {
   margin-bottom: 1rem;
 }
 
+/*SOUTH AFRICA*/
+.southafrica {
+  display: flex;
+  margin-top: 20rem;
+}
+
+.southafrica-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.southafricaImg {
+  margin-left: 10rem;
+}
+
+.south-africa1,
+.south-africa2 {
+  margin-top: 4rem;
+}
+
+.southafrica-all-text {
+  margin-left: 6rem;
+}
+
+.southafrica-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
+}
+
 /*ASIA*/
 .section-five {
   position: relative;
@@ -723,7 +811,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 726rem;
+  top: 940rem;
   left: 30rem;
   background-color: white;
   height: 13rem;
@@ -776,7 +864,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 815rem;
+  top: 1030rem;
   left: 28rem;
   background-color: white;
   height: 13rem;
