@@ -849,6 +849,35 @@ span {
   margin-left: 5rem;
 }
 
+/*JAPAN*/
+.japan {
+  display: flex;
+  margin-bottom: 20rem;
+  margin-top: 20rem;
+  overflow-x: auto;
+}
+
+.japan-headline {
+  font-family: "Amiri", serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.japanImg1 {
+  margin-right: 18rem;
+}
+
+.japanImg2 {
+  margin-left: 15rem;
+}
+
+.japan-text {
+  font-family: "Open Sans", sans-serif;
+  column-gap: 5rem;
+  columns: 2;
+  width: 40rem;
+}
+
 /*OCEANIA*/
 .section-six {
   position: relative;
@@ -864,7 +893,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 1030rem;
+  top: 1130rem;
   left: 28rem;
   background-color: white;
   height: 13rem;
