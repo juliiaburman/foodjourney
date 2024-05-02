@@ -6,7 +6,7 @@ function scrollDownFunction() {
   window.scrollTo({
     top: 700,
     behavior: "smooth",
-  })
+  });
 }
 
 //To top button

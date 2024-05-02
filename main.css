@@ -537,14 +537,37 @@ span {
   height: 13rem;
 }
 
+/*CHILE*/
 .chile {
   display: flex;
+  margin-bottom: 20rem;
+  overflow-x: auto;
 }
 
 .chile-headline {
   font-family: "Amiri", serif;
   text-align: center;
   font-size: 50px;
+}
+
+.chile-image1 {
+  margin-right: 18rem;
+}
+
+.chile-image2 {
+  margin-left: 15rem;
+}
+
+.chile-text {
+  font-family: "Open Sans", sans-serif;
+  column-gap: 5rem;
+  columns: 2;
+  width: 55rem;
+}
+
+.chile-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
 }
 
 /*EUROPE*/
@@ -568,10 +591,42 @@ span {
   height: 13rem;
 }
 
+/*ENGALND*/
+.england {
+  margin-top: 25rem;
+}
+
+.england-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.england-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 16px;
+}
+
+.england-headline {
+  font-family: "Amiri", serif;
+  text-align: center;
+  font-size: 50px;
+}
+
 /*GERMANY*/
 .germany {
   display: flex;
   margin-bottom: 20rem;
+  margin-top: 20rem;
   overflow-x: auto;
 }
 
@@ -847,6 +902,146 @@ span {
   font-family: "Open Sans", sans-serif;
   width: 25rem;
   margin-left: 5rem;
+}
+
+/*SOUTH AFRICA*/
+.indonesia {
+  display: flex;
+  margin-top: 20rem;
+}
+
+.indonesia-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.indonesiaImg {
+  margin-left: 10rem;
+}
+
+.indonesia-africa1,
+.indonesia-africa2 {
+  margin-top: 4rem;
+}
+
+.indonesia-all-text {
+  margin-left: 6rem;
+}
+
+.indonesia-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
+}
+
+.indonesia-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/*RUSSIA*/
+.russia {
+  margin-top: 20rem;
+}
+
+.italy-image {
+  margin-left: 300rem;
+}
+
+.russia-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.russia-text {
+  background-color: #fcc094;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+}
+
+.russia-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/*CHILE*/
+.chile {
+  display: flex;
+  margin-bottom: 20rem;
+  overflow-x: auto;
+}
+
+.chile-headline {
+  font-family: "Amiri", serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.chile-image1 {
+  margin-right: 18rem;
+}
+
+.chile-image2 {
+  margin-left: 15rem;
+}
+
+.chile-text {
+  font-family: "Open Sans", sans-serif;
+  column-gap: 5rem;
+  columns: 2;
+  width: 55rem;
+}
+
+.chile-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/*THAILAND*/
+.thailand {
+  display: flex;
+  margin-top: 20rem;
+}
+
+.thailand-headline {
+  font-family: "Amiri", serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+}
+
+.thailandImg {
+  margin-left: 12.5rem;
+}
+
+.thailand1,
+.thailand2 {
+  margin-top: 1rem;
+}
+
+.thailand-all-text {
+  margin-left: 6rem;
+}
+
+.thailand-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 5rem;
+}
+
+.thailand-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
 }
 
 /*OCEANIA*/
