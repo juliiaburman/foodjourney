@@ -643,15 +643,17 @@ span {
 
 .iceland-headline {
   font-family: "Amiri", serif;
-  margin-left: 3rem;
+  margin-left: 6rem;
   text-align: center;
   font-size: 50px;
+  margin-bottom: 2rem;
 }
 
 .iceland-text {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  margin-left: 4rem;
+  margin-left: 8rem;
+  width: 23rem;
 }
 
 /*ITALY*/
