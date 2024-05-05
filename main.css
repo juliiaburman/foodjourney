@@ -880,6 +880,21 @@ span {
   width: 40rem;
 }
 
+.japanSymbol {
+  width: 15rem;
+}
+
+.japan-symbols {
+  display: flex;
+  justify-content: center;
+}
+
+.japan2,
+.japan3,
+.japan4 {
+  margin-top: 1rem;
+}
+
 /*OCEANIA*/
 .section-six {
   position: relative;
