@@ -708,7 +708,11 @@ span {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin-left: 8rem;
-  width: 23rem;
+  width: 24rem;
+}
+
+.iceland-2 {
+  margin-top: 2rem;
 }
 
 /*ITALY*/
@@ -959,11 +963,11 @@ span {
 }
 
 .japanImg1 {
-  margin-right: 18rem;
+  margin-right: 30rem;
 }
 
 .japanImg2 {
-  margin-left: 15rem;
+  margin-left: 30rem;
 }
 
 .japan-text {
@@ -1072,6 +1076,18 @@ span {
 
 .thailand-subheading {
   font-weight: 700;
+.japanSymbol {
+  width: 15rem;
+}
+
+.japan-symbols {
+  display: flex;
+  justify-content: center;
+}
+
+.japan2,
+.japan3,
+.japan4 {
   margin-top: 1rem;
 }
 
