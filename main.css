@@ -495,7 +495,9 @@ span {
   font-size: 50px;
 }
 
-.mexico-subheading1 {
+.mexico-subheading1,
+.mexico-subheading2,
+.mexico-subheading3 {
   font-weight: 700;
   margin-top: 1rem;
 }
@@ -649,6 +651,12 @@ span {
   margin-left: 15rem;
 }
 
+.germany-subheading1,
+.germany-subheading2 {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
 .germany-text {
   font-family: "Open Sans", sans-serif;
   column-gap: 5rem;
@@ -709,6 +717,12 @@ span {
   margin-bottom: 2rem;
 }
 
+.iceland-subheading1,
+.iceland-subheading2 {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
 .iceland-text {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -734,6 +748,13 @@ span {
   margin-left: 3rem;
   text-align: center;
   font-size: 50px;
+}
+
+.italy-subheading1,
+.italy-subheading2,
+.italy-subheading3 {
+  font-weight: 700;
+  margin-top: 1rem;
 }
 
 .italy-text {
@@ -854,6 +875,11 @@ span {
 
 .southafrica-all-text {
   margin-left: 6rem;
+}
+
+.southafrica-subheading1 {
+  font-weight: 700;
+  margin-top: 1rem;
 }
 
 .southafrica-text {
