@@ -653,7 +653,11 @@ span {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin-left: 8rem;
-  width: 23rem;
+  width: 24rem;
+}
+
+.iceland-2 {
+  margin-top: 2rem;
 }
 
 /*ITALY*/
