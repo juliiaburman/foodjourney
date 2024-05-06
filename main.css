@@ -1168,11 +1168,22 @@ span {
 
 /*FOOTER*/
 
-.faboulus-four {
+.creators {
+  font-family: "Abril Fatface", serif;
+  font-size: 60pt;
+  color: #fb9246;
+ margin-left: 5rem;
+}
+
+.creators-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12pt;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+  width: 45rem;
+}
+
+.footer-img {
   width: 100%;
-  background-color: #f18094;
-  font-size: 20px;
-  margin-top: 40rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
 }
