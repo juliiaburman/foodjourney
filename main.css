@@ -1283,6 +1283,7 @@ span {
   display: flex;
   align-items: center;
   margin-top: 5rem;
+  margin-bottom: 15rem;
 }
 
 .australia-headline {
@@ -1309,13 +1310,47 @@ span {
   margin-top: 1rem;
 }
 
+/*WORD FROM CREATORS*/
+.wordfrom-headline {
+  font-family: "Scandia", sans-serif;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.wordfrom-text1 {
+  margin-bottom: 2rem;
+}
+
+.wordfrom-text1,
+.wordfrom-text2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  line-height: 1.8rem;
+}
+
+.plane-img {
+  width: 20rem;
+  margin-left: 28rem;
+  margin-bottom: 5rem;
+}
+
 /*FOOTER*/
 
-.faboulus-four {
-  width: 100%;
-  background-color: #f18094;
-  font-size: 20px;
-  margin-top: 40rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+.creators {
+  font-family: "Abril Fatface", serif;
+  font-size: 55pt;
+  margin: 3rem;
+  color: #fb9246;
+}
+
+.creators-text {
+  font-family: "Open Sans", sans-serif;
+  width: 45rem;
+  margin-left: 4rem;
+  margin-bottom: 5rem;
 }
