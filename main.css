@@ -246,6 +246,7 @@ span {
   width: 2rem;
   height: 2rem;
   display: none;
+  cursor: pointer;
 }
 
 .fa-chevron-up {
@@ -267,6 +268,7 @@ span {
   width: 5rem;
   height: 5rem;
   animation: floatUpDown 1s ease-in-out infinite alternate;
+  cursor: pointer;
 }
 
 @keyframes floatUpDown {
@@ -359,6 +361,7 @@ span {
   font-size: 22pt;
   position: absolute;
   margin-top: 10rem;
+  cursor: pointer;
 }
 
 .title-one {
@@ -398,6 +401,7 @@ span {
   position: absolute;
   line-height: 2rem;
   margin-top: 13rem;
+  cursor: pointer;
 }
 
 .title-one-content {
@@ -1327,7 +1331,7 @@ span {
 .wordfrom-text1,
 .wordfrom-text2 {
   font-family: "Open Sans", sans-serif;
-  text-align: left;
+  text-align: center;
   padding-left: 25rem;
   padding-right: 25rem;
   line-height: 1.8rem;

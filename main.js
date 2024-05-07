@@ -30,3 +30,75 @@ function checkHeight() {
     toTop.style.display = "none";
   }
 }
+
+//Scroll to continents
+const northAmerica = document.querySelector(".title-one");
+northAmerica.addEventListener("click", northAmericaFunction);
+
+function northAmericaFunction() {
+  window.scrollTo({
+    top: 2100,
+    behavior: "smooth",
+  });
+}
+
+const southAmerica= document.querySelector(".title-two");
+southAmerica.addEventListener("click", southAmericaFunction);
+
+function southAmericaFunction() {
+  window.scrollTo({
+    top: 5750,
+    behavior: "smooth",
+  });
+}
+
+const europe= document.querySelector(".title-three");
+europe.addEventListener("click", europeFunction);
+
+function europeFunction() {
+  window.scrollTo({
+    top: 7000,
+    behavior: "smooth",
+  });
+}
+
+const africa= document.querySelector(".title-four");
+africa.addEventListener("click", africaFunction);
+
+function africaFunction() {
+  window.scrollTo({
+    top: 15555,
+    behavior: "smooth",
+  });
+}
+
+const asia= document.querySelector(".title-five");
+asia.addEventListener("click", asiaFunction);
+
+function asiaFunction() {
+  window.scrollTo({
+    top: 18020,
+    behavior: "smooth",
+  });
+}
+
+const oceania= document.querySelector(".title-six");
+oceania.addEventListener("click", oceaniaFunction);
+
+function oceaniaFunction() {
+  window.scrollTo({
+    top: 25100,
+    behavior: "smooth",
+  });
+}
+
+//Scroll to countries
+const australia = document.querySelector(".title-six-content");
+australia.addEventListener("click", australiaFunction);
+
+function australiaFunction() {
+  window.scrollTo({
+    top: 25825,
+    behavior: "smooth",
+  });
+}
