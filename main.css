@@ -1,6 +1,6 @@
 /*font-family: "Abril Fatface", serif;
 font-family: "Open Sans", sans-serif;
-font-family: "Amiri", serif;*/
+font-family: "Scandia", sans-serif;*/
 
 * {
   margin: 0;
@@ -249,8 +249,7 @@ span {
 }
 
 .fa-chevron-up {
-  padding-right: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 0.2rem;
 }
 
@@ -315,6 +314,7 @@ span {
   margin-top: 6rem;
   margin-left: 3rem;
   color: #fb9246;
+  font-weight: 400;
 }
 
 .destination-directionary {
@@ -448,7 +448,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #ffb4c1;
   font-size: 90pt;
-  top: 140rem;
+  top: 142rem;
   left: 33rem;
 }
 
@@ -457,8 +457,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 145rem;
-  left: 22rem;
+  top: 147rem;
+  left: 21.5rem;
   background-color: white;
   height: 13rem;
 }
@@ -467,32 +467,46 @@ span {
 .cuba {
   display: flex;
   margin-left: 6rem;
+  align-items: center;
+  margin-top: 5rem;
 }
 
 .cuba-headline {
-  font-family: "Amiri", serif;
-  margin-left: 3rem;
+  font-family: "Scandia", sans-serif;
+  margin-left: 6rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+}
+
+.cuba-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
 }
 
 .cuba-text {
   font-family: "Open Sans", sans-serif;
   width: 25rem;
-  margin-left: 4rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+
+.cuba-image {
+  width: auto;
 }
 
 /*MEXICO*/
 .mexico {
-  margin-top: 25rem;
+  margin-top: 15rem;
 }
 
 .mexico-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .mexico-subheading1,
@@ -505,13 +519,47 @@ span {
 .mexico-text {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
+  column-gap: 4rem;
   font-family: "Open Sans", sans-serif;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-right: 1.5rem;
   margin-top: 2rem;
   text-align: left;
   font-size: 16px;
+  width: 85rem;
+  align-items: baseline;
+}
+
+/*USA*/
+.usa {
+  margin-top: 15rem;
+  display: flex;
+  margin-left: 6rem;
+  align-items: center;
+}
+
+.usa-headline {
+  font-family: "Scandia", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 4rem;
+}
+
+.usa-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.usa-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-top: 1.5rem;
+  margin-left: 4.9rem;
+}
+
+.usa-image {
+  margin-left: 10.6rem;
 }
 
 /*SOUTH AMERICA*/
@@ -520,8 +568,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 1.5rem;
-  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-left: 13rem;
 }
 
 .section-south {
@@ -529,8 +577,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #ffb4c1;
   font-size: 90pt;
-  top: 310rem;
-  left: 33rem;
+  top: 370.5rem;
+  left: 35rem;
 }
 
 .section-america2 {
@@ -538,8 +586,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 315rem;
-  left: 22rem;
+  top: 376rem;
+  left: 24rem;
   background-color: white;
   height: 13rem;
 }
@@ -547,18 +595,19 @@ span {
 /*CHILE*/
 .chile {
   display: flex;
-  margin-bottom: 20rem;
+  margin-top: 5rem;
   overflow-x: auto;
 }
 
 .chile-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .chile-image1 {
-  margin-right: 18rem;
+  margin-right: 15rem;
 }
 
 .chile-image2 {
@@ -570,6 +619,7 @@ span {
   column-gap: 5rem;
   columns: 2;
   width: 55rem;
+  margin-top: 2rem;
 }
 
 .chile-subheading {
@@ -583,8 +633,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 1.5rem;
   margin-left: 14rem;
+  margin-top: 2rem;
 }
 
 .section-europe {
@@ -592,59 +642,86 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 386rem;
-  left: 24rem;
+  top: 453rem;
+  left: 25.5rem;
   background-color: white;
   height: 13rem;
 }
 
 /*ENGALND*/
 .england {
-  margin-top: 25rem;
+  margin-top: 4rem;
 }
 
 .england-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
   margin-top: 3rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .england-text {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
+  column-gap: 4rem;
   font-family: "Open Sans", sans-serif;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-right: 1.5rem;
   margin-top: 2rem;
   text-align: left;
   font-size: 16px;
+  width: 84rem;
+  align-items: baseline;
 }
 
-.england-headline {
-  font-family: "Amiri", serif;
+/*FRANCE*/
+.france {
+  display: flex;
+  margin-left: 6rem;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.france-headline {
+  font-family: "Scandia", sans-serif;
+  margin-left: 6rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+}
+
+.france-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.france-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
 }
 
 /*GERMANY*/
 .germany {
   display: flex;
-  margin-bottom: 20rem;
-  margin-top: 20rem;
+  margin-bottom: 15rem;
+  margin-top: 15rem;
   overflow-x: auto;
 }
 
 .germany-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .germany-image1 {
-  margin-right: 18rem;
+  margin-right: 15rem;
 }
 
 .germany-image2 {
@@ -661,30 +738,33 @@ span {
   font-family: "Open Sans", sans-serif;
   column-gap: 5rem;
   columns: 2;
-  width: 40rem;
+  width: 55rem;
+  margin-top: 2rem;
 }
 
 /*GREECE*/
 .greeceImg {
-  width: 20rem;
+  width: 18rem;
   margin-left: 2rem;
   margin-bottom: 3rem;
 }
 
 .greece {
   display: flex;
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
 
 .greece-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .greeceImg2 {
-  margin-left: 12.5rem;
+  margin-left: 10.5rem;
 }
 
 .greece1,
@@ -711,14 +791,16 @@ span {
 .iceland {
   display: flex;
   margin-left: 6rem;
+  align-items: center;
 }
 
 .iceland-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 6rem;
   text-align: center;
   font-size: 50px;
   margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 .iceland-subheading1,
@@ -734,24 +816,21 @@ span {
   width: 24rem;
 }
 
-.iceland-2 {
-  margin-top: 2rem;
-}
-
 /*ITALY*/
 .italy {
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .italy-image {
-  margin-left: 25rem;
+  width: 60rem;
+  margin-left: 15rem;
 }
 
 .italy-headline {
-  font-family: "Amiri", serif;
-  margin-left: 3rem;
-  text-align: center;
+  font-family: "Scandia", sans-serif;
+  margin-left: 4rem;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .italy-subheading1,
@@ -762,31 +841,42 @@ span {
 }
 
 .italy-text {
-  background-color: #fcc094;
-  padding: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 4rem;
   font-family: "Open Sans", sans-serif;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-right: 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 16px;
+  width: 84rem;
+  align-items: baseline;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.italy-all-text {
+  background-color: #fcc094;
 }
 
 /*SWEDEN*/
 .sweden {
   display: flex;
-  margin-top: 20rem;
+  margin-top: 15rem;
+  align-items: center;
 }
 
 .sweden-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .swedenImg {
-  margin-left: 12.5rem;
+  margin-left: 10.5rem;
 }
 
 .sweden1,
@@ -803,6 +893,7 @@ span {
   font-family: "Open Sans", sans-serif;
   width: 25rem;
   margin-left: 5rem;
+  margin-top: 2rem;
 }
 
 .sweden-subheading {
@@ -815,7 +906,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   margin-left: 14rem;
 }
 
@@ -824,8 +915,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 915rem;
-  left: 24rem;
+  top: 988rem;
+  left: 25rem;
   background-color: white;
   height: 13rem;
 }
@@ -833,13 +924,17 @@ span {
 /* EGYPT */
 .egypt {
   display: flex;
+  align-items: center;
+  margin-top: 5rem;
 }
 
 .egypt-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .egypt-all-text {
@@ -865,24 +960,20 @@ span {
 /*SOUTH AFRICA*/
 .southafrica {
   display: flex;
-  margin-top: 20rem;
+  margin-top: 15rem;
+  align-items: center;
 }
 
 .southafrica-headline {
-  font-family: "Amiri", serif;
-  margin-left: 3rem;
-  margin-top: 2rem;
+  font-family: "Scandia", sans-serif;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .southafricaImg {
-  margin-left: 10rem;
-}
-
-.south-africa1,
-.south-africa2 {
-  margin-top: 4rem;
+  margin-left: 5rem;
 }
 
 .southafrica-all-text {
@@ -897,7 +988,8 @@ span {
 .southafrica-text {
   font-family: "Open Sans", sans-serif;
   width: 25rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 
 /*ASIA*/
@@ -906,8 +998,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 1.5rem;
-  margin-left: 18rem;
+  margin-top: 2rem;
+  margin-left: 25rem;
 }
 
 .section-asia {
@@ -915,8 +1007,8 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 940rem;
-  left: 30rem;
+  top: 1141rem;
+  left: 36rem;
   background-color: white;
   height: 13rem;
 }
@@ -924,17 +1016,21 @@ span {
 /*CHINA*/
 .china {
   display: flex;
+  margin-top: 5rem;
+  align-items: center;
 }
 
 .china-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .chinaImg {
-  margin-left: 12.5rem;
+  margin-left: 10.5rem;
 }
 
 .china1,
@@ -957,22 +1053,62 @@ span {
   font-weight: 700;
 }
 
-/*SOUTH AFRICA*/
+/*INDIA*/
+.india {
+  margin-top: 15rem;
+}
+
+.india-headline {
+  font-family: "Scandia", sans-serif;
+  margin-left: 4rem;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.india-subheading1,
+.india-subheading2 {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.india-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 3rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 16px;
+  width: 84rem;
+  align-items: baseline;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.india-all-text {
+  background-color: #fcc094;
+}
+
+/*INDONESIA*/
 .indonesia {
   display: flex;
-  margin-top: 20rem;
+  margin-top: 15rem;
+  align-items: center;
 }
 
 .indonesia-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
-  margin-top: 2rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .indonesiaImg {
-  margin-left: 10rem;
+  margin-left: 6rem;
 }
 
 .indonesia-africa1,
@@ -981,13 +1117,13 @@ span {
 }
 
 .indonesia-all-text {
-  margin-left: 6rem;
+  margin-left: 4rem;
 }
 
 .indonesia-text {
   font-family: "Open Sans", sans-serif;
   width: 25rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
 
 .indonesia-subheading {
@@ -998,34 +1134,35 @@ span {
 /*JAPAN*/
 .japan {
   display: flex;
-  margin-bottom: 20rem;
-  margin-top: 20rem;
+  margin-bottom: 15rem;
+  margin-top: 15rem;
   overflow-x: auto;
 }
 
 .japan-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .japanImg1 {
-  margin-right: 30rem;
+  margin-right: 15rem;
 }
 
 .japanImg2 {
-  margin-left: 30rem;
+  margin-left: 15rem;
 }
 
 .japan-text {
   font-family: "Open Sans", sans-serif;
   column-gap: 5rem;
   columns: 2;
-  width: 40rem;
+  width: 50rem;
 }
 
 .japanSymbol {
-  width: 15rem;
+  width: 13rem;
 }
 
 .japan-symbols {
@@ -1045,22 +1182,24 @@ span {
 
 /*RUSSIA*/
 .russia {
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .russia-image {
-  margin-left: 37rem;
+  margin-left: 30rem;
+  margin-bottom: 2rem;
+  height: 36rem;
+  width: 30rem;
 }
 
 .russia-headline {
-  font-family: "Amiri", serif;
-  margin-left: 3rem;
-  text-align: center;
+  font-family: "Scandia", sans-serif;
+  margin-left: 4rem;
   font-size: 50px;
+  font-weight: 400;
 }
 
 .russia-text {
-  background-color: #fcc094;
   padding: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1070,40 +1209,11 @@ span {
   margin-right: 1.5rem;
 }
 
+.russia-all-text {
+  background-color: #fcc094;
+}
+
 .russia-subheading {
-  font-weight: 700;
-  margin-top: 1rem;
-}
-
-/*CHILE*/
-.chile {
-  display: flex;
-  margin-bottom: 20rem;
-  overflow-x: auto;
-}
-
-.chile-headline {
-  font-family: "Amiri", serif;
-  text-align: center;
-  font-size: 50px;
-}
-
-.chile-image1 {
-  margin-right: 18rem;
-}
-
-.chile-image2 {
-  margin-left: 15rem;
-}
-
-.chile-text {
-  font-family: "Open Sans", sans-serif;
-  column-gap: 5rem;
-  columns: 2;
-  width: 55rem;
-}
-
-.chile-subheading {
   font-weight: 700;
   margin-top: 1rem;
 }
@@ -1111,18 +1221,21 @@ span {
 /*THAILAND*/
 .thailand {
   display: flex;
-  margin-top: 20rem;
+  margin-top: 15rem;
+  align-items: center;
 }
 
 .thailand-headline {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   margin-left: 3rem;
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .thailandImg {
-  margin-left: 12.5rem;
+  margin-left: 10.5rem;
 }
 
 .thailand1,
@@ -1132,7 +1245,6 @@ span {
 
 .thailand-all-text {
   margin-left: 6rem;
-  margin-top: 5rem;
 }
 
 .thailand-text {
@@ -1152,7 +1264,7 @@ span {
   color: #faf3e9;
   font-size: 350pt;
   margin-top: 1.5rem;
-  margin-left: 14rem;
+  margin-left: 12rem;
 }
 
 .section-oceania {
@@ -1160,19 +1272,87 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 1130rem;
-  left: 28rem;
+  top: 1584rem;
+  left: 26rem;
   background-color: white;
   height: 13rem;
 }
 
+/*AUSTRALIA*/
+.australia {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+}
+
+.australia-headline {
+  font-family: "Scandia", sans-serif;
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.australia-all-text {
+  margin-left: 5rem;
+}
+
+.australia-text {
+  font-family: "Open Sans", sans-serif;
+  width: 25rem;
+  margin-left: 6rem;
+}
+
+.australia-subheading {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/*WORD FROM CREATORS*/
+.wordfrom-headline {
+  font-family: "Scandia", sans-serif;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.wordfrom-text1 {
+  margin-bottom: 2rem;
+}
+
+.wordfrom-text1,
+.wordfrom-text2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  line-height: 1.8rem;
+}
+
+.plane-img {
+  width: 20rem;
+  margin-left: 28rem;
+  margin-bottom: 5rem;
+}
+
 /*FOOTER*/
 
-.faboulus-four {
-  width: 100%;
-  background-color: #f18094;
-  font-size: 20px;
-  margin-top: 40rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+.creators {
+  font-family: "Abril Fatface", serif;
+  font-size: 55pt;
+  margin-left: 6rem;
+  color: #fb9246;
+}
+
+.creators-text {
+  font-family: "Open Sans", sans-serif;
+  width: 45rem;
+  margin-left: 6rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  line-height: 1.8rem;
 }
