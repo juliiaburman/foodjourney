@@ -4,7 +4,7 @@ arrowDown.addEventListener("click", scrollDownFunction);
 
 function scrollDownFunction() {
   window.scrollTo({
-    top: 700,
+    top: 800,
     behavior: "smooth",
   });
 }
@@ -37,7 +37,7 @@ northAmerica.addEventListener("click", northAmericaFunction);
 
 function northAmericaFunction() {
   window.scrollTo({
-    top: 2099,
+    top: 2280,
     behavior: "smooth",
   });
 }
@@ -47,7 +47,7 @@ southAmerica.addEventListener("click", southAmericaFunction);
 
 function southAmericaFunction() {
   window.scrollTo({
-    top: 5770,
+    top: 5970,
     behavior: "smooth",
   });
 }
@@ -57,7 +57,7 @@ europe.addEventListener("click", europeFunction);
 
 function europeFunction() {
   window.scrollTo({
-    top: 7060,
+    top: 7240,
     behavior: "smooth",
   });
 }
@@ -98,7 +98,7 @@ cuba.addEventListener("click", cubaFunction);
 
 function cubaFunction() {
   window.scrollTo({
-    top: 2820,
+    top: 3010,
     behavior: "smooth",
   });
 }
@@ -108,7 +108,7 @@ mexico.addEventListener("click", mexicoFunction);
 
 function mexicoFunction() {
   window.scrollTo({
-    top: 3770,
+    top: 3960,
     behavior: "smooth",
   });
 }
@@ -118,7 +118,7 @@ us.addEventListener("click", usFunction);
 
 function usFunction() {
   window.scrollTo({
-    top: 5000,
+    top: 5190,
     behavior: "smooth",
   });
 }
@@ -128,7 +128,7 @@ chile.addEventListener("click", chileFunction);
 
 function chileFunction() {
   window.scrollTo({
-    top: 6420,
+    top: 6610,
     behavior: "smooth",
   });
 }
@@ -138,7 +138,7 @@ england.addEventListener("click", englandFunction);
 
 function englandFunction() {
   window.scrollTo({
-    top: 7790,
+    top: 7970,
     behavior: "smooth",
   });
 }
@@ -148,7 +148,7 @@ france.addEventListener("click", franceFunction);
 
 function franceFunction() {
   window.scrollTo({
-    top: 8985,
+    top: 9175,
     behavior: "smooth",
   });
 }
@@ -158,7 +158,7 @@ germany.addEventListener("click", germanyFunction);
 
 function germanyFunction() {
   window.scrollTo({
-    top: 9820,
+    top: 10010,
     behavior: "smooth",
   });
 }
@@ -168,7 +168,7 @@ greece.addEventListener("click", greeceFunction);
 
 function greeceFunction() {
   window.scrollTo({
-    top: 10690,
+    top: 10870,
     behavior: "smooth",
   });
 }
