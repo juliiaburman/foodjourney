@@ -67,7 +67,7 @@ africa.addEventListener("click", africaFunction);
 
 function africaFunction() {
   window.scrollTo({
-    top: 15255,
+    top: 15455,
     behavior: "smooth",
   });
 }
@@ -77,7 +77,7 @@ asia.addEventListener("click", asiaFunction);
 
 function asiaFunction() {
   window.scrollTo({
-    top: 18020,
+    top: 17920,
     behavior: "smooth",
   });
 }
@@ -87,7 +87,7 @@ oceania.addEventListener("click", oceaniaFunction);
 
 function oceaniaFunction() {
   window.scrollTo({
-    top: 25100,
+    top: 25050,
     behavior: "smooth",
   });
 }
@@ -178,7 +178,7 @@ iceland.addEventListener("click", icelandFunction);
 
 function icelandFunction() {
   window.scrollTo({
-    top: 12110,
+    top: 12300,
     behavior: "smooth",
   });
 }
@@ -188,7 +188,7 @@ italy.addEventListener("click", italyFunction);
 
 function italyFunction() {
   window.scrollTo({
-    top: 12990,
+    top: 13230,
     behavior: "smooth",
   });
 }
@@ -198,7 +198,7 @@ sweden.addEventListener("click", swedenFunction);
 
 function swedenFunction() {
   window.scrollTo({
-    top: 14425,
+    top: 14675,
     behavior: "smooth",
   });
 }
@@ -208,7 +208,7 @@ egypt.addEventListener("click", egyptFunction);
 
 function egyptFunction() {
   window.scrollTo({
-    top: 15935,
+    top: 16220,
     behavior: "smooth",
   });
 }
@@ -218,7 +218,7 @@ southAfrica.addEventListener("click", southAfricaFunction);
 
 function southAfricaFunction() {
   window.scrollTo({
-    top: 16910,
+    top: 17195,
     behavior: "smooth",
   });
 }
@@ -228,7 +228,7 @@ china.addEventListener("click", chinaFunction);
 
 function chinaFunction() {
   window.scrollTo({
-    top: 18385,
+    top: 18699,
     behavior: "smooth",
   });
 }
@@ -238,7 +238,7 @@ india.addEventListener("click", indiaFunction);
 
 function indiaFunction() {
   window.scrollTo({
-    top: 19335,
+    top: 19640,
     behavior: "smooth",
   });
 }
@@ -248,7 +248,7 @@ indonesia.addEventListener("click", indonesiaFunction);
 
 function indonesiaFunction() {
   window.scrollTo({
-    top: 20715,
+    top: 21030,
     behavior: "smooth",
   });
 }
@@ -258,7 +258,7 @@ japan.addEventListener("click", japanFunction);
 
 function japanFunction() {
   window.scrollTo({
-    top: 21610,
+    top: 21920,
     behavior: "smooth",
   });
 }
@@ -268,7 +268,7 @@ russia.addEventListener("click", russiaFunction);
 
 function russiaFunction() {
   window.scrollTo({
-    top: 22440,
+    top: 22750,
     behavior: "smooth",
   });
 }
@@ -278,7 +278,7 @@ thailand.addEventListener("click", thailandFunction);
 
 function thailandFunction() {
   window.scrollTo({
-    top: 23960,
+    top: 24280,
     behavior: "smooth",
   });
 }
