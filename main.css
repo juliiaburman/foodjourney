@@ -69,29 +69,29 @@ font-family: "Scandia", sans-serif;*/
   transform: translate(-40%, -20%);
 }
 
-/* .mexico:hover,
-.iceland:hover,
-.sweden:hover,
-.germany:hover,
-.australia:hover,
-.greece:hover,
-.russia:hover,
-.indonesia:hover {
+.mexicoP:hover,
+.icelandP:hover,
+.swedenP:hover,
+.germanyP:hover,
+.australiaP:hover,
+.greeceP:hover,
+.russiaP:hover,
+.indonesiaP:hover {
   width: 5rem;
-} */
+}
 
-/* .cuba:hover,
-.usa:hover,
-.chile:hover,
-.egypt:hover,
-.uk:hover,
-.france:hover,
-.italy:hover,
-.india:hover,
-.japan:hover,
-.china:hover {
+.cubaP:hover,
+.usaP:hover,
+.chileP:hover,
+.egyptP:hover,
+.ukP:hover,
+.franceP:hover,
+.italyP:hover,
+.indiaP:hover,
+.japanP:hover,
+.chinaP:hover {
   width: 4rem;
-} */
+}
 
 .pin span {
   white-space: nowrap;
@@ -115,99 +115,99 @@ span {
   display: none;
 }
 
-.usa {
-  top: 13%;
-  left: 19%;
+.usaP {
+  top: 43%;
+  left: 25%;
 }
 
-.mexico {
-  top: 23%;
+.mexicoP {
+  top: 53%;
   left: 22.5%;
 }
 
-.cuba {
-  top: 46%;
-  left: 21.5%;
+.cubaP {
+  top: 53.5%;
+  left: 28%;
 }
 
-.chile {
-  top: 71%;
+.chileP {
+  top: 79%;
   left: 30.2%;
 }
 
-.egypt {
-  top: 44%;
-  left: 54.5%;
+.egyptP {
+  top: 52%;
+  left: 55%;
 }
 
-.south-africa {
-  top: 80%;
+.south-africaP {
+  top: 75%;
   left: 53%;
 }
 
-.iceland {
-  top: 33.5%;
-  left: 37%;
+.icelandP {
+  top: 31.8%;
+  left: 44%;
 }
 
-.uk {
-  top: 42%;
-  left: 47.5%;
+.ukP {
+  top: 39.3%;
+  left: 47.3%;
 }
 
-.sweden {
-  top: 4.5%;
-  left: 51%;
+.swedenP {
+  top: 35%;
+  left: 50.7%;
 }
 
-.germany {
-  top: 10%;
+.germanyP {
+  top: 41%;
   left: 50%;
 }
 
-.france {
-  top: 12.5%;
-  left: 42%;
+.franceP {
+  top: 43%;
+  left: 48.3%;
 }
 
-.italy {
-  top: 14%;
+.italyP {
+  top: 45%;
   left: 51%;
 }
 
-.australia {
-  top: 68%;
-  left: 83%;
+.australiaP {
+  top: 74%;
+  left: 82%;
 }
 
-.greece {
-  top: 48.5%;
+.greeceP {
+  top: 46%;
   left: 53%;
 }
 
-.russia {
-  top: 3%;
+.russiaP {
+  top: 35%;
   left: 60%;
 }
 
-.china {
-  top: 40%;
+.chinaP {
+  top: 48%;
   left: 75%;
 }
 
-.india {
-  top: 24%;
+.indiaP {
+  top: 54.5%;
   left: 67.5%;
 }
 
-.indonesia {
-  top: 34%;
+.indonesiaP {
+  top: 63.3%;
   left: 76.7%;
 }
 
-.japan {
-  top: 15%;
-  left: 81.7%;
+.japanP {
+  top: 45.8%;
+  left: 81.5%;
 }
 
 @keyframes pulse {
