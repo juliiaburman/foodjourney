@@ -70,7 +70,6 @@ font-family: "Scandia", sans-serif;*/
 }
 
 /* .mexico:hover,
-.lebanon:hover,
 .iceland:hover,
 .sweden:hover,
 .germany:hover,
@@ -144,11 +143,6 @@ span {
 .south-africa {
   top: 74%;
   left: 53.7%;
-}
-
-.lebanon {
-  top: 49%;
-  left: 56.5%;
 }
 
 .iceland {
@@ -264,7 +258,7 @@ span {
   border: none;
   background-color: #bfd0df;
   left: 50%;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   width: 5rem;
   height: 5rem;
   animation: floatUpDown 1s ease-in-out infinite alternate;
@@ -352,6 +346,7 @@ span {
   margin-top: 5rem;
   margin-left: 8rem;
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .one,
@@ -377,11 +372,12 @@ span {
 .title-four,
 .title-five,
 .title-six {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   font-size: 22pt;
   position: absolute;
   margin-top: 10rem;
   cursor: pointer;
+  font-weight: 400;
 }
 
 .title-one {
@@ -408,49 +404,124 @@ span {
   margin-left: 198rem;
 }
 
-.title-one-content,
+.title-one-content-cuba,
+.title-one-content-mexico,
+.title-one-content-us,
 .title-two-content,
-.title-three-content-first,
+.title-three-content-england,
+.title-three-content-france,
+.title-three-content-germany,
+.title-three-content-greece,
 .title-three-content-second,
-.title-four-content,
-.title-five-content-first,
-.title-five-content-second,
+.title-three-content-iceland,
+.title-three-content-italy,
+.title-three-content-sweden,
+.title-four-content-egypt,
+.title-four-content-south-africa,
+.title-five-content-china,
+.title-five-content-india,
+.title-five-content-indonesia,
+.title-five-content-japan,
+.title-five-content-russia,
+.title-five-content-thailand,
 .title-six-content {
-  font-family: "Amiri", serif;
+  font-family: "Scandia", sans-serif;
   font-size: 18pt;
   position: absolute;
   line-height: 2rem;
   margin-top: 13rem;
   cursor: pointer;
+  font-weight: 400;
 }
 
-.title-one-content {
+.title-one-content-cuba,
+.title-one-content-mexico,
+.title-one-content-us {
   margin-left: 22rem;
+}
+
+.title-one-content-mexico {
+  margin-top: 15rem;
+}
+
+.title-one-content-us {
+  margin-top: 17rem;
 }
 
 .title-two-content {
   margin-left: 58rem;
 }
 
-.title-three-content-first {
+.title-three-content-england {
   margin-left: 93rem;
 }
 
-.title-three-content-second {
-  margin-left: 102rem;
-  margin-top: 11rem;
+.title-three-content-france {
+  margin-left: 93rem;
+  margin-top: 15rem;
 }
 
-.title-four-content {
+.title-three-content-germany {
+  margin-left: 93rem;
+  margin-top: 17rem;
+}
+
+.title-three-content-greece {
+  margin-left: 93rem;
+  margin-top: 19rem;
+}
+
+.title-three-content-iceland {
+  margin-left: 102rem;
+  margin-top: 13rem;
+}
+
+.title-three-content-italy {
+  margin-left: 102rem;
+  margin-top: 15rem;
+}
+
+.title-three-content-sweden {
+  margin-left: 102rem;
+  margin-top: 17rem;
+}
+
+.title-four-content-egypt {
   margin-left: 128rem;
 }
 
-.title-five-content-first {
+.title-four-content-south-africa {
+  margin-left: 128rem;
+  margin-top: 15rem;
+  width: 10rem;
+}
+
+.title-five-content-china {
   margin-left: 163rem;
 }
 
-.title-five-content-second {
+.title-five-content-india {
+  margin-left: 163rem;
+  margin-top: 15rem;
+}
+
+.title-five-content-indonesia {
+  margin-left: 163rem;
+  margin-top: 17rem;
+}
+
+.title-five-content-japan {
   margin-left: 172rem;
+}
+
+.title-five-content-russia {
+  margin-left: 172rem;
+  margin-top: 15rem;
+}
+
+.title-five-content-thailand {
+  margin-left: 172rem;
+  margin-top: 17rem;
 }
 
 .title-six-content {
@@ -463,7 +534,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   margin-left: 14rem;
 }
 
@@ -592,8 +663,9 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 13rem;
+  margin-bottom: 4rem;
 }
 
 .section-south {
@@ -601,7 +673,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #ffb4c1;
   font-size: 90pt;
-  top: 385.5rem;
+  top: 371.5rem;
   left: 35rem;
 }
 
@@ -610,7 +682,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 391rem;
+  top: 377rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -658,7 +730,8 @@ span {
   color: #faf3e9;
   font-size: 350pt;
   margin-left: 14rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .section-europe {
@@ -666,7 +739,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 468rem;
+  top: 457.5rem;
   left: 25.5rem;
   background-color: white;
   height: 13rem;
@@ -930,8 +1003,9 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 14rem;
+  margin-bottom: 4rem;
 }
 
 .section-africa {
@@ -939,7 +1013,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 978rem;
+  top: 970rem;
   left: 25rem;
   background-color: white;
   height: 13rem;
@@ -1022,8 +1096,9 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 25rem;
+  margin-bottom: 4rem;
 }
 
 .section-asia {
@@ -1031,7 +1106,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 1117rem;
+  top: 1125rem;
   left: 36rem;
   background-color: white;
   height: 13rem;
@@ -1287,8 +1362,9 @@ span {
   font-family: "Abril Fatface", serif;
   color: #faf3e9;
   font-size: 350pt;
-  margin-top: 1.5rem;
+  margin-top: 4rem;
   margin-left: 12rem;
+  margin-bottom: 4rem;
 }
 
 .section-oceania {
@@ -1296,7 +1372,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 1558rem;
+  top: 1570rem;
   left: 26rem;
   background-color: white;
   height: 13rem;
