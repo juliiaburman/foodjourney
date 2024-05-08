@@ -116,98 +116,98 @@ span {
 }
 
 .usa {
-  top: 44%;
-  left: 23.7%;
+  top: 13%;
+  left: 19%;
 }
 
 .mexico {
-  top: 52%;
-  left: 22.3%;
+  top: 23%;
+  left: 22.5%;
 }
 
 .cuba {
-  top: 53.4%;
-  left: 28%;
+  top: 46%;
+  left: 21.5%;
 }
 
 .chile {
-  top: 75%;
-  left: 30.8%;
+  top: 71%;
+  left: 30.2%;
 }
 
 .egypt {
-  top: 51.5%;
-  left: 55%;
+  top: 44%;
+  left: 54.5%;
 }
 
 .south-africa {
-  top: 74%;
-  left: 53.7%;
+  top: 80%;
+  left: 53%;
 }
 
 .iceland {
-  top: 31.7%;
-  left: 44%;
+  top: 33.5%;
+  left: 37%;
 }
 
 .uk {
-  top: 39%;
-  left: 47.2%;
+  top: 42%;
+  left: 47.5%;
 }
 
 .sweden {
-  top: 34%;
-  left: 50.7%;
+  top: 4.5%;
+  left: 51%;
 }
 
 .germany {
-  top: 40%;
+  top: 10%;
   left: 50%;
 }
 
 .france {
-  top: 42.2%;
-  left: 48.3%;
+  top: 12.5%;
+  left: 42%;
 }
 
 .italy {
-  top: 44.6%;
+  top: 14%;
   left: 51%;
 }
 
 .australia {
-  top: 74%;
-  left: 82%;
+  top: 68%;
+  left: 83%;
 }
 
 .greece {
-  top: 46%;
+  top: 48.5%;
   left: 53%;
 }
 
 .russia {
-  top: 32%;
-  left: 67%;
+  top: 3%;
+  left: 60%;
 }
 
 .china {
-  top: 45%;
-  left: 73%;
+  top: 40%;
+  left: 75%;
 }
 
 .india {
-  top: 54.5%;
-  left: 67.3%;
+  top: 24%;
+  left: 67.5%;
 }
 
 .indonesia {
-  top: 62.5%;
+  top: 34%;
   left: 76.7%;
 }
 
 .japan {
-  top: 45.7%;
-  left: 81.5%;
+  top: 15%;
+  left: 81.7%;
 }
 
 @keyframes pulse {
@@ -290,11 +290,11 @@ span {
   width: 45rem;
   color: #494949;
   font-size: 17px;
-  top: 69rem;
-  left: 24.5rem;
+  top: 68.5rem;
+  left: 25rem;
   background-color: white;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 .container1 {
@@ -1423,8 +1423,8 @@ span {
 .wordfrom-text2 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  padding-left: 25rem;
-  padding-right: 25rem;
+  padding-left: 22rem;
+  padding-right: 20rem;
   line-height: 1.8rem;
   margin-bottom: 2rem;
 }
@@ -1451,4 +1451,8 @@ span {
   margin-bottom: 3rem;
   margin-top: 1rem;
   line-height: 1.8rem;
+}
+
+.creators-img {
+  width: 100%;
 }
