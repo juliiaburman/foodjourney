@@ -826,13 +826,13 @@ span {
 }
 
 .italy-image {
-  width: 60rem;
-  margin-left: 15rem;
+  width: 55rem;
+  margin-left: 18rem;
 }
 
 .italy-headline {
   font-family: "Scandia", sans-serif;
-  margin-left: 4rem;
+  margin-left: 5rem;
   font-size: 50px;
   font-weight: 400;
 }
@@ -919,7 +919,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 988rem;
+  top: 964rem;
   left: 25rem;
   background-color: white;
   height: 13rem;
