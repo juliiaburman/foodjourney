@@ -4,7 +4,7 @@ arrowDown.addEventListener("click", scrollDownFunction);
 
 function scrollDownFunction() {
   window.scrollTo({
-    top: 700,
+    top: 800,
     behavior: "smooth",
   });
 }
