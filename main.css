@@ -563,7 +563,7 @@ span {
 }
 
 .usa-image {
-  margin-left: 10.6rem;
+  margin-left: 12.5rem;
 }
 
 /*SOUTH AMERICA*/
@@ -1011,7 +1011,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 1141rem;
+  top: 1117rem;
   left: 36rem;
   background-color: white;
   height: 13rem;
@@ -1151,11 +1151,11 @@ span {
 }
 
 .japanImg1 {
-  margin-right: 15rem;
+  margin-right: 30rem;
 }
 
 .japanImg2 {
-  margin-left: 15rem;
+  margin-left: 30rem;
 }
 
 .japan-text {
@@ -1276,7 +1276,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 1584rem;
+  top: 1558rem;
   left: 26rem;
   background-color: white;
   height: 13rem;
@@ -1324,10 +1324,6 @@ span {
   font-weight: 400;
 }
 
-.wordfrom-text1 {
-  margin-bottom: 2rem;
-}
-
 .wordfrom-text1,
 .wordfrom-text2 {
   font-family: "Open Sans", sans-serif;
@@ -1335,6 +1331,7 @@ span {
   padding-left: 25rem;
   padding-right: 25rem;
   line-height: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 .plane-img {
