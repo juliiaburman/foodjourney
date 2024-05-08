@@ -290,23 +290,43 @@ span {
 
 /*WELCOME TEXT*/
 
-.dotted-circle {
-  margin-top: 4rem;
-  margin-left: 20rem;
-  width: 26rem;
-}
-
 .welcome-text {
   position: absolute;
   text-align: center;
   width: 45rem;
   color: #494949;
   font-size: 17px;
-  top: 61rem;
+  top: 66rem;
   left: 24rem;
   background-color: white;
   font-family: "Open Sans", sans-serif;
-  line-height: 2rem;
+  line-height: 1.5rem;
+}
+
+.container1 {
+  width: 400px;
+  height: 400px;
+  left: 30%;
+  margin-top: 20rem;
+  border-radius: 50%;
+}
+
+.dotted-circle {
+  position: absolute;
+  left: 38%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  animation: rotateCircle 20s linear infinite;
+}
+
+@keyframes rotateCircle {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 /*TABLE OF CONTENT*/
