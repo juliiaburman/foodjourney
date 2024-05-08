@@ -290,23 +290,43 @@ span {
 
 /*WELCOME TEXT*/
 
-.dotted-circle {
-  margin-top: 4rem;
-  margin-left: 20rem;
-  width: 26rem;
-}
-
 .welcome-text {
   position: absolute;
   text-align: center;
   width: 45rem;
   color: #494949;
   font-size: 17px;
-  top: 61rem;
+  top: 66rem;
   left: 24rem;
   background-color: white;
   font-family: "Open Sans", sans-serif;
-  line-height: 2rem;
+  line-height: 1.5rem;
+}
+
+.container1 {
+  width: 400px;
+  height: 400px;
+  left: 30%;
+  margin-top: 20rem;
+  border-radius: 50%;
+}
+
+.dotted-circle {
+  position: absolute;
+  left: 38%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  animation: rotateCircle 20s linear infinite;
+}
+
+@keyframes rotateCircle {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 /*TABLE OF CONTENT*/
@@ -452,7 +472,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #ffb4c1;
   font-size: 90pt;
-  top: 142rem;
+  top: 157rem;
   left: 33rem;
 }
 
@@ -461,7 +481,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 147rem;
+  top: 162rem;
   left: 21.5rem;
   background-color: white;
   height: 13rem;
@@ -581,7 +601,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #ffb4c1;
   font-size: 90pt;
-  top: 370.5rem;
+  top: 385.5rem;
   left: 35rem;
 }
 
@@ -590,7 +610,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 376rem;
+  top: 391rem;
   left: 24rem;
   background-color: white;
   height: 13rem;
@@ -646,7 +666,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 453rem;
+  top: 468rem;
   left: 25.5rem;
   background-color: white;
   height: 13rem;
@@ -919,7 +939,7 @@ span {
   font-family: "Abril Fatface", serif;
   color: #f18094;
   font-size: 130pt;
-  top: 964rem;
+  top: 978rem;
   left: 25rem;
   background-color: white;
   height: 13rem;
@@ -986,7 +1006,7 @@ span {
 
 .southafrica-subheading1 {
   font-weight: 700;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .southafrica-text {
